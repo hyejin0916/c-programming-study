@@ -19,8 +19,11 @@ C 언어 기초 학습 내용을 정리한 저장소입니다.
 
 
 ## 실행 방법
-### C++17 표준으로 [file name].cpp를 컴파일하고, 결과 실행 파일 이름을 test로 지정
-clang++ -std=c++17 [file name].cpp -o test
-
-### 현재 디렉터리의 test 프로그램 실행
+#### 1. 컴파일
+```bash
+clang++ -std=c++17 [file_name].cpp -o test
+```
+#### 2. 실행
+```bash
 ./test
+```
